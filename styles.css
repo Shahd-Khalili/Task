@@ -1,86 +1,89 @@
-  body {
+  .folio {
     padding-top: 100px;  
     padding-left: 250px;  
   }
-    p.discription {
-   color: #666;
-   font-family: Arial;
-   font-size: 8px;
-    }
+  
+  .folio--logo {
+    padding-right: 10px;
+   }
 
-  .background {
+   .folio--background {
     position: relative;
     left: 110px;
     bottom: 100px;
-
   }
 
-  .hello{
+  .folio--heading{
     position: relative;
     bottom:  170px;
     font-size: 110px;
      font-family: Arial;
   }
 
-  .st {
+  .folio--paragraph {
+    color: #666;
+    font-family: Arial;
+    font-size: 8px;
+     }
+ 
+
+  .folio--powerimg {
     float: right;
     padding-right: 600px; 
   }
 
-  .fllow {
+  .folio--content{
 float: left;
 padding-top: 100px;
   }
 
-  .t {
+  .folio--sticker {
     position: relative;
     right: 45px;
     padding-bottom: 320px;
   }
 
-  .logo {
-   padding-right: 10px;
-  }
+ .folio--contactInfo {
+    background-color:#bdf7ff;
+    opacity: 0.8;
+    padding: 20px;
+ }
 
-  p.loading {
+ .folio--load {
     font-family: Arial; 
     font-size: 15px;  
     text-align: center; 
     padding-right: 50px;
   }
- .back-color {
-    background-color:lightskyblue;
-    opacity: 0.4;
-    padding: 20px;
- }
-  img.contact-photo {
+
+  .folio--contactImg {
     padding-left: 410px;
   }
 
-  p.mobile {
+  .folio--mobile {
     text-align: center;
     padding-right: 50px;
     font-size: 20px; 
     color: black
   }
 
-  p.email-discription {
+  .folio--emailParagraph {
     text-align: center; 
     padding-right: 50px;
     color:#666; 
     font-size: 10px;
   }
 
-  a.email {
+  .folio--email {
         color:blue;
    }
 
-   .social-links{
+   .links{
     font-family: Arial; 
     font-size: 15px; 
     padding-left: 230px;
    }
-    .links {
+    .links--item{
     color: black;
     padding-right: 60px;
    }
