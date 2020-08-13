@@ -3,88 +3,87 @@
     padding-left: 250px;  
   }
   
-  .folio--logo {
+  .folio__logoImg {
     padding-right: 10px;
    }
 
-   .folio--background {
+   .folio__backgroundImg {
     position: relative;
     left: 110px;
     bottom: 100px;
   }
 
-  .folio--heading{
+  .folio__heading {
     position: relative;
     bottom:  170px;
     font-size: 110px;
      font-family: Arial;
   }
 
-  .folio--paragraph {
+  .folio__paragraph {
     color: #666;
     font-family: Arial;
     font-size: 8px;
      }
  
 
-  .folio--powerimg {
+  .folio__powerImg {
     float: right;
     padding-right: 600px; 
   }
-
-  .folio--content{
+/*block*/
+  .folio__content {
 float: left;
 padding-top: 100px;
   }
 
-  .folio--sticker {
+  .content__stickerImg {
     position: relative;
     right: 45px;
     padding-bottom: 320px;
   }
 
- .folio--contactInfo {
+ .content--contactInfo {
     background-color:#bdf7ff;
     opacity: 0.8;
-    padding: 20px;
+    padding: 30px;
  }
 
- .folio--load {
+ .contactInfo__load {
     font-family: Arial; 
     font-size: 15px;  
     text-align: center; 
-    padding-right: 50px;
+    padding-right: 370px;
   }
 
-  .folio--contactImg {
+  .contactInfo__contactImg {
     padding-left: 410px;
   }
 
-  .folio--mobile {
+  .contactInfo__mobile {
     text-align: center;
-    padding-right: 50px;
+    padding-right: 370px;
     font-size: 20px; 
     color: black
   }
 
-  .folio--emailParagraph {
+  .contactInfo__emailParagraph {
     text-align: center; 
-    padding-right: 50px;
+    padding-right: 370px;
     color:#666; 
     font-size: 10px;
   }
 
-  .folio--email {
+  .contactInfo__email {
         color:blue;
    }
 
-   .links{
+   .contactInfo__links {
     font-family: Arial; 
     font-size: 15px; 
     padding-left: 230px;
    }
-    .links--item{
+    .links__item {
     color: black;
-    padding-right: 60px;
+    padding-right: 30px;
    }
-  
