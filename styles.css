@@ -111,6 +111,7 @@ body {
 }
 
 .Auther__Information {
+  background-color: black;
   position: fixed;
   right: 0;
   left: 0;
@@ -118,9 +119,6 @@ body {
   z-index: 9;
 }
 
-.Autherr__Background {
-  background-color: black;
-}
 
 .Auther__Content {
   width: 75%;
@@ -128,16 +126,17 @@ body {
 }
 
 .Auther__BackgroundImg {
-  width: 100%;    
+  width: 100%;
+  position: relative;    
 }
 
-.Auther__BackgroundImg--Sticker1 {
+.Auther__Sticker1 {
   position: absolute;
   right: 70px;
   top: 150px;
 }
 
-.Auther__BackgroundImg--StickerPower {
+.Auther__StickerPower {
   position: absolute;
   left: 150px;
   top: 50px;
@@ -153,7 +152,7 @@ body {
   border-radius: 50%; 
 }
 
-.Auther__BackgroundImg--StickerWaves {
+.Auther__StickerWaves {
   position: absolute;
   top: 200px;
   left: 230px;
@@ -245,14 +244,14 @@ p.Auther__Historybox--paragraph {
     height: 150px; 
   }
 
-  .Auther__BackgroundImg--Sticker1 {
+  .Auther__Sticker1 {
     right: 19%;
     top: 100px;
     width: 30px;
     height: 20px;
   }
 
-  .Auther__BackgroundImg--StickerPower {
+  .Auther__StickerPower {
     top: 20px;
     left: 25%;
     transform: translate(-30%,0);
@@ -269,7 +268,7 @@ p.Auther__Historybox--paragraph {
     height: 85px;
   }
 
-  .Auther__BackgroundImg--StickerWaves {
+  .Auther__StickerWaves {
     position: absolute;
     top: 110px;
     position: absolute;
@@ -325,11 +324,11 @@ p.Auther__Historybox--paragraph {
     width: 40%;
   }
 
-  .Auther__BackgroundImg--Sticker1 {
+  .Auther__Sticker1 {
     right: 29%;
   }
 
-  .Auther__BackgroundImg--StickerPower {
+  .Auther__StickerPower {
     left: 35%;
   }
 

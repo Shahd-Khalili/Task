@@ -1,0 +1,130 @@
+$arial: Arial, Helvetica, sans-serif;
+$color-black: #000000;
+body {
+     font-family: $arial;
+  
+    .Auther__Information {
+       background-color: $color-black;
+       position: fixed;
+       right: 0;
+       left: 0;
+       top: 0;
+       z-index: 9;
+
+       .Auther__Content {
+            width: 75%;
+            margin: 0 auto; 
+
+            .Auther__BackgroundImg {
+                width: 100%;
+                position: relative;    
+            }
+
+            .Auther__Sticker1 {
+                position: absolute;
+                right: 70px;
+                top: 150px;
+            }
+
+            .Auther__StickerPower {
+                position: absolute;
+                left: 150px;
+                top: 50px;
+            }
+          
+            .Auther__StickerWaves {
+                position: absolute;
+                top: 200px;
+                left: 230px;
+            }
+
+            .Auther__Img {
+                position: absolute;
+                left: 250px;
+                top: 180px;
+                height: 20%;
+                width: 20%;
+                overflow: hidden;
+                border-radius: 50%; 
+            }
+          
+            .Auther__Idntity {
+                text-align: center;
+                margin-top: 40px;
+                color:gray; 
+                font-size: 25px;
+          
+                &--Name {
+                    color: #FFFFFF;
+                    font-size: 25px;
+                }
+          
+                &--Family {
+                    color: #FFFFFF;
+                    font-size: 25px;
+                    font-weight: bold;
+                }
+            }
+
+            .Auther__Discribtion {
+                text-align: center;
+                color: #FFFFFF;
+                font-size: 10px;
+                margin-left: 30px;
+        
+                &--Lastline {
+                    color: #FFFFFF;
+                    font-size: 10px;
+                    text-align: center;
+                    margin: 0 auto;
+                }
+            }
+          
+           .Auther__Contact {
+                text-align: center;
+                font-size: 10px;
+                color:#808080; 
+                margin-left: 30px;
+                padding:  30px;
+            }
+          
+            .Auther__Progress {
+                display: flex;
+                padding-bottom: 20px;
+            
+                &--PHOTOSHOP {
+                    font-size: 10px;
+                    color: #FFFFFF;
+                    padding-right: 60px;
+                }
+          
+                &--ILLUSTRATOR {
+                    font-size: 10px;
+                    color: #FFFFFF;
+                    padding-right: 60px;
+                }
+          
+                &--HTML {
+                    font-size: 10px;
+                    color: #FFFFFF;
+                }
+            }
+
+            .Auther__Historybox {
+                font-size: 15px;
+                color: #FFFFFF;
+                width: 100%;
+
+                &--paragraph {
+                    font-size: 8px;
+                    padding-right: 10px;
+                }
+            }
+          
+           .Auther__History{
+                display: flex;
+            }
+        }
+       
+    }
+} 
