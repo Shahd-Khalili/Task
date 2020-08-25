@@ -15,32 +15,31 @@ body {
             width: 75%;
             margin: 0 auto; 
 
-            .Auther__BackgroundImg {
-                width: 100%;
-                position: relative;    
+            .Content__BackgroundImg {
+                width: 100%;  
             }
 
-            .Auther__Sticker1 {
+            .Content__Sticker1 {
                 position: absolute;
-                right: 70px;
-                top: 150px;
+                right: 45px;
+                top: 70px;
             }
 
-            .Auther__StickerPower {
+            .Content__StickerPower {
                 position: absolute;
-                left: 150px;
+                left: 100px;
                 top: 50px;
             }
           
-            .Auther__StickerWaves {
+            .Content__StickerWaves {
                 position: absolute;
-                top: 200px;
-                left: 230px;
+                top: 213px;
+                left: 36%;
             }
 
             .Auther__Img {
                 position: absolute;
-                left: 250px;
+                left: 40%;
                 top: 180px;
                 height: 20%;
                 width: 20%;
@@ -51,7 +50,7 @@ body {
             .Auther__Idntity {
                 text-align: center;
                 margin-top: 40px;
-                color:gray; 
+                color: #808080; 
                 font-size: 25px;
           
                 &--Name {
@@ -66,7 +65,7 @@ body {
                 }
             }
 
-            .Auther__Discribtion {
+            .Content__Discribtion {
                 text-align: center;
                 color: #FFFFFF;
                 font-size: 10px;
@@ -88,32 +87,61 @@ body {
                 padding:  30px;
             }
           
-            .Auther__Progress {
+            .Content__Progress {
                 display: flex;
+                flex-wrap: wrap;
                 padding-bottom: 20px;
             
-                &--PHOTOSHOP {
+                &--Photoshop {
                     font-size: 10px;
                     color: #FFFFFF;
-                    padding-right: 60px;
+                    padding-right: 20px;
+
+                    .Photoshop--lable {
+                        margin-left: 20px;
+                    }
+                      
+                    .Photoshop--percentge{
+                        margin-left: 30px;
+                    }
                 }
           
                 &--ILLUSTRATOR {
                     font-size: 10px;
                     color: #FFFFFF;
-                    padding-right: 60px;
+                    padding-right: 20px;
+
+                    .ILLUSTRATOR--lable {
+                        margin-left: 20px;
+                    }
+                      
+                    .ILLUSTRATOR--percentge{
+                        margin-left: 30px;
+                    }
                 }
           
                 &--HTML {
                     font-size: 10px;
                     color: #FFFFFF;
+
+                    .HTML--lable {
+                        margin-left: 20px;
+                    }
+                      
+                    .HTML--percentge{
+                        margin-left: 30px;
+                    }
                 }
             }
 
-            .Auther__Historybox {
+            .Content__Historybox {
                 font-size: 15px;
                 color: #FFFFFF;
                 width: 100%;
+
+                .Historybox__year{
+                    margin-left: 15px;
+                }
 
                 &--paragraph {
                     font-size: 8px;
@@ -121,10 +149,247 @@ body {
                 }
             }
           
-           .Auther__History{
+           .Content__History{
                 display: flex;
             }
         }
        
     }
-} 
+
+    .Folio {
+        position: absolute;
+        top: 520px;
+
+        .FolioImg {
+            width: 100%;
+            
+            &__Logo {
+                width: 10%;
+                position: absolute;
+                top: 60px;
+            }
+              
+            &__Background {
+                position: relative;
+                width: 70%;
+                left: 100px;
+            }
+        }
+
+        .Folio__Hello {
+            font-size: 50px;
+            font-weight: bold;
+
+            .Folio__Discription {
+                color: #808080;
+                font-size: 9px;
+            }
+              
+            .Discription__PowerImg {
+                float: right;
+                margin-right: 50px;
+                width: 25px ;
+                height: 20px;
+            }
+         
+
+            .Folio__ContentDscription {
+                float: left;
+
+                .ContentDscription--Imgs {
+                    width: 45%;
+                    height: 45%;
+                }
+
+                .ContentDscription__StickerImg {
+                    position: relative;
+                    right: 27px;
+                    padding-bottom: 20px;
+                    width: 40px;
+                    height: 30px;
+                }
+
+                .ContentDscription--ContactInfo {
+                    background-color: #7FFFD4;
+                    padding: 50px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    width: max-content;
+
+                   .ContactInfo__Load {
+                        color: #000000;
+                        font-size: 15px;  
+                        text-align: center; 
+                        font-weight: bold;
+                    }
+                  
+                    .ContactInfo__ContactImg {
+                        margin: 0 50%;
+                        width: 20px;
+                        height: 150px;
+                    }
+                   
+                    .ContactInfo__Mobile {
+                        text-align: center;
+                        font-size: 20px; 
+                        color: #000000;
+                        font-weight: bold;
+                    }
+                       
+                    .ContactInfo__EmailParagraph {
+                        text-align: center; 
+                        color: #696969; 
+                        font-size: 10px;
+               
+                     
+                        .ContactInfo__Email {
+                            color: #4682B4;
+                            border-left: 2px solid #808080;
+                            font-size: 6px;
+                            padding-left: 5px;
+                        }
+                    }
+
+                    .ContactInfo__Links {
+                        text-align: center; 
+                        font-size: 15px; 
+                        margin-top: 50px;
+
+                        .Links__Item {
+                            color: #000000;
+                            padding: 22px;  
+                            font-weight: bold;
+                        }   
+                    }
+                }
+ 
+            }
+        }
+          
+    }
+}
+
+@media only screen and (min-width: 400px) {
+ 
+    .Auther__Content {
+        width: 60%;
+    
+  
+       .Content__BackgroundImg {
+            width: 100%;   
+            height: 180px; 
+        }
+  
+        .Content__Sticker1 {
+            right: 60px;
+            top: 110px;
+            width: 30px;
+            height: 20px;
+        }
+  
+        .Content__StickerPower {
+            top: 20px;
+            left: 25%;
+            transform: translate(-30%,0);
+            width: 30px;
+            height: 20px;
+        }
+  
+        .Auther__Img {
+            top: 50px;
+            left: 70%;
+            transform: translate(0,-70px);
+            width: 85px;
+            height: 85px;
+        }
+  
+        .Content__StickerWaves {
+            position: absolute;
+            top: 110px;
+            position: absolute;
+            left: 46%;
+            transform: translate(0,-70px);
+        }
+  
+        .Auther__Idntity {
+            text-align: center;
+            margin-top: 20px;
+        }
+  
+        .Content__Discribtion {
+            text-align: center;
+        }
+   
+        .Auther__Contact {
+            text-align: center;
+        }
+  
+        .Content__Progress {
+            margin-left: 5%;
+         
+            .Content__Progress--Photoshop {
+                margin-right: 30px;
+            }
+  
+            .Content__Progress--ILLUSTRATOR {
+                margin-right: 30px;
+            }
+        }
+
+        .Content__History {
+            width: 100%;
+            margin-left: 5%;
+          
+           .Content__Historybox--paragraph {
+                font-size: 8px;
+                padding-right: 5px;
+            }
+        }
+    }
+
+    .Folio {
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+
+    .Auther__Content {
+        width: 50%;
+    
+        .Content__Sticker1 {
+            margin-right: 90px;
+        }
+  
+        .Content__StickerPower {
+            margin-left: 50px;
+        }
+
+        .Auther__Img {
+            width: 60px;
+            height: 60px;
+        }
+
+        .Content__Progress {
+            margin-left: 150px;
+            flex-wrap: nowrap;
+
+           .Content__Progress--ILLUSTRATOR {
+                padding-left: 160px;
+            }
+
+            .Content__Progress--HTML {
+                padding-left: 150px;
+            }
+        }
+
+        .Content__History {
+            margin-left: 150px;
+        }
+    }
+   
+    .Folio {
+        margin-left: 150px;
+    }
+  
+}

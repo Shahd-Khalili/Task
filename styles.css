@@ -34,23 +34,23 @@ body {
   font-size: 11px;
 }
 
-.Folio__PowerImg {
+.Discription__PowerImg {
   float: right;
   margin-right: 25px;
   width: 25px ;
   height: 20px;
 }
 
-.Folio__Content {
+.Folio__ContentDscription {
   float: left;
 }
 
-.Folio--ContentImgs {
+.ContentDscription--Imgs {
   width: 45%;
   height: 45%;
 }
 
-.Content__StickerImg {
+.ContentDscription__StickerImg {
   position: relative;
   right: 27px;
   padding-bottom: 20px;
@@ -58,7 +58,7 @@ body {
   height: 30px;
 }
 
-.Content--ContactInfo {
+.ContentDscription--ContactInfo {
   background-color: #7FFFD4;
   padding: 50px;
   margin-left: auto;
@@ -95,7 +95,8 @@ body {
 .ContactInfo__Email {
   color: #4682B4;
   border-left: 2px solid #808080;
-  font-size: 7px;
+  font-size: 6px;
+  padding-left: 5px;
 }
  
 .ContactInfo__Links {
@@ -125,18 +126,18 @@ body {
   margin: 0 auto; 
 }
 
-.Auther__BackgroundImg {
+.Content__BackgroundImg {
   width: 100%;
   position: relative;    
 }
 
-.Auther__Sticker1 {
+.Content__Sticker1 {
   position: absolute;
   right: 70px;
   top: 150px;
 }
 
-.Auther__StickerPower {
+.Content__StickerPower {
   position: absolute;
   left: 150px;
   top: 50px;
@@ -152,7 +153,7 @@ body {
   border-radius: 50%; 
 }
 
-.Auther__StickerWaves {
+.Content__StickerWaves {
   position: absolute;
   top: 200px;
   left: 230px;
@@ -161,7 +162,7 @@ body {
 .Auther__Idntity {
   text-align: center;
   margin-top: 40px;
-  color:gray; 
+  color: #808080; 
   font-size: 25px;
 }
 
@@ -176,13 +177,13 @@ body {
   font-weight: bold;
 }
 
-.Auther__Discribtion {
+.Content__Discribtion {
   color: #FFFFFF;
   font-size: 10px;
   margin-left: 30px;
 }
 
-.Auther__Discribtion--Lastline {
+.Content__Discribtion--Lastline {
   color: #FFFFFF;
   font-size: 10px;
   text-align: center;
@@ -196,39 +197,67 @@ body {
   padding:  30px;
 }
 
-.Auther__Progress {
+.Content__Progress {
   display: flex;
   padding-bottom: 20px;
 }
 
-.Auther__Progress--PHOTOSHOP {
+.Photoshop--lable {
+  margin-left: 20px;
+}
+
+.Photoshop--percentge{
+  margin-left: 30px;
+}
+
+.Content__Progress--Photoshop {
   font-size: 10px;
   color: #FFFFFF;
   padding-right: 60px;
 }
 
-.Auther__Progress--ILLUSTRATOR {
+.ILLUSTRATOR--lable {
+  margin-left: 20px;
+}
+
+.ILLUSTRATOR--percentge{
+  margin-left: 30px;
+}
+
+.Content__Progress--ILLUSTRATOR {
   font-size: 10px;
   color: #FFFFFF;
   padding-right: 60px;
 }
 
-.Auther__Progress--HTML {
+.HTML--lable {
+  margin-left: 20px;
+}
+
+.HTML--percentge{
+  margin-left: 30px;
+}
+
+.Content__Progress--HTML {
   font-size: 10px;
   color: #FFFFFF;
 }
 
-.Auther__Historybox {
+.Content__Historybox {
   font-size: 15px;
   color: #FFFFFF;
   width: 100%;
 }
 
-.Auther__History{
+.Historybox__year{
+margin-left: 15px;
+}
+
+.Content__History{
   display: flex;
 }
 
-p.Auther__Historybox--paragraph {
+.Content__Historybox--paragraph {
   font-size: 8px;
   padding-right: 10px;
 }
@@ -239,19 +268,19 @@ p.Auther__Historybox--paragraph {
     width: 60%;
   }
 
-  .Auther__BackgroundImg {
+  .Content__BackgroundImg {
     width: 100%;   
     height: 150px; 
   }
 
-  .Auther__Sticker1 {
+  .Content__Sticker1 {
     right: 19%;
     top: 100px;
     width: 30px;
     height: 20px;
   }
 
-  .Auther__StickerPower {
+  .Content__StickerPower {
     top: 20px;
     left: 25%;
     transform: translate(-30%,0);
@@ -268,7 +297,7 @@ p.Auther__Historybox--paragraph {
     height: 85px;
   }
 
-  .Auther__StickerWaves {
+  .Content__StickerWaves {
     position: absolute;
     top: 110px;
     position: absolute;
@@ -281,7 +310,7 @@ p.Auther__Historybox--paragraph {
     margin-top: 20px;
   }
 
-  .Auther__Discribtion {
+  .Content__Discribtion {
     text-align: center;
   }
 
@@ -289,16 +318,16 @@ p.Auther__Historybox--paragraph {
     text-align: center;
   }
 
-  .Auther__Progress--PHOTOSHOP {
+  .Content__Progress--Photoshop {
     padding-right: 40px;
   }
 
-  .Auther__Progress--ILLUSTRATOR {
+  .Content__Progress--ILLUSTRATOR {
     padding-right: 40px;
   }
 
 
-  p.Auther__Historybox--paragraph {
+  .Content__Historybox--paragraph {
     font-size: 8px;
     padding-right: 5px;
   }
@@ -307,11 +336,11 @@ p.Auther__Historybox--paragraph {
     top: 450px;
     margin-left: 5%;
   }
-  .Auther__Progress {
+  .Content__Progress {
     margin-left: 5%;
   }
 
-  .Auther__History{
+  .Content__History{
     width: 100%;
     margin-left: 5%;
   }
@@ -324,23 +353,23 @@ p.Auther__Historybox--paragraph {
     width: 40%;
   }
 
-  .Auther__Sticker1 {
+  .Content__Sticker1 {
     right: 29%;
   }
 
-  .Auther__StickerPower {
+  .Content__StickerPower {
     left: 35%;
   }
 
-  .Auther__Progress--PHOTOSHOP {
+  .Content__Progress--Photoshop {
     padding-right: 20%;
   }
 
-  .Auther__Progress--ILLUSTRATOR {
+  .Content__Progress--ILLUSTRATOR {
     padding-right: 18%;
   }
 
-  .Auther__History{
+  .Content__History{
     width: 100%;
   }
 
