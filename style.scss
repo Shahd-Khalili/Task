@@ -1,5 +1,5 @@
-$arial: Arial, Helvetica, sans-serif;
-$color-black: #000000;
+@import "variable";
+
 body {
      font-family: $arial;
   
@@ -50,16 +50,16 @@ body {
             .Auther__Idntity {
                 text-align: center;
                 margin-top: 40px;
-                color: #808080; 
+                color: $color-gray; 
                 font-size: 25px;
           
                 &--Name {
-                    color: #FFFFFF;
+                    color: $color-white;
                     font-size: 25px;
                 }
           
                 &--Family {
-                    color: #FFFFFF;
+                    color: $color-white;
                     font-size: 25px;
                     font-weight: bold;
                 }
@@ -67,12 +67,12 @@ body {
 
             .Content__Discribtion {
                 text-align: center;
-                color: #FFFFFF;
+                color: $color-white;
                 font-size: 10px;
                 margin-left: 30px;
         
                 &--Lastline {
-                    color: #FFFFFF;
+                    color: $color-white;
                     font-size: 10px;
                     text-align: center;
                     margin: 0 auto;
@@ -82,7 +82,7 @@ body {
            .Auther__Contact {
                 text-align: center;
                 font-size: 10px;
-                color:#808080; 
+                color: $color-gray; 
                 margin-left: 30px;
                 padding:  30px;
             }
@@ -94,41 +94,41 @@ body {
             
                 &--Photoshop {
                     font-size: 10px;
-                    color: #FFFFFF;
+                    color: $color-white;
                     padding-right: 20px;
 
-                    .Photoshop--lable {
+                    .Photoshop--Lable {
                         margin-left: 20px;
                     }
                       
-                    .Photoshop--percentge{
+                    .Photoshop--Percentge {
                         margin-left: 30px;
                     }
                 }
           
-                &--ILLUSTRATOR {
+                &--Illustrator {
                     font-size: 10px;
-                    color: #FFFFFF;
+                    color: $color-white;
                     padding-right: 20px;
 
-                    .ILLUSTRATOR--lable {
+                    .Illustrator--Lable {
                         margin-left: 20px;
                     }
                       
-                    .ILLUSTRATOR--percentge{
+                    .Illustrator--Percentge {
                         margin-left: 30px;
                     }
                 }
           
-                &--HTML {
+                &--Html {
                     font-size: 10px;
-                    color: #FFFFFF;
+                    color: $color-white;
 
-                    .HTML--lable {
+                    .Html--Lable {
                         margin-left: 20px;
                     }
                       
-                    .HTML--percentge{
+                    .Html--Percentge {
                         margin-left: 30px;
                     }
                 }
@@ -136,24 +136,23 @@ body {
 
             .Content__Historybox {
                 font-size: 15px;
-                color: #FFFFFF;
+                color: $color-white;
                 width: 100%;
 
-                .Historybox__year{
+                .Historybox__Year {
                     margin-left: 15px;
                 }
 
-                &--paragraph {
+                &--Paragraph {
                     font-size: 8px;
                     padding-right: 10px;
                 }
             }
           
-           .Content__History{
+           .Content__History {
                 display: flex;
             }
-        }
-       
+        }  
     }
 
     .Folio {
@@ -181,7 +180,7 @@ body {
             font-weight: bold;
 
             .Folio__Discription {
-                color: #808080;
+                color: $color-gray;
                 font-size: 9px;
             }
               
@@ -210,14 +209,14 @@ body {
                 }
 
                 .ContentDscription--ContactInfo {
-                    background-color: #7FFFD4;
+                    background-color: $color-lightblue;
                     padding: 50px;
                     margin-left: auto;
                     margin-right: auto;
                     width: max-content;
 
                    .ContactInfo__Load {
-                        color: #000000;
+                        color: $color-black;
                         font-size: 15px;  
                         text-align: center; 
                         font-weight: bold;
@@ -232,19 +231,19 @@ body {
                     .ContactInfo__Mobile {
                         text-align: center;
                         font-size: 20px; 
-                        color: #000000;
+                        color: $color-black;
                         font-weight: bold;
                     }
                        
                     .ContactInfo__EmailParagraph {
                         text-align: center; 
-                        color: #696969; 
+                        color: $color-lightgray;
                         font-size: 10px;
                
                      
                         .ContactInfo__Email {
-                            color: #4682B4;
-                            border-left: 2px solid #808080;
+                            color: $color-blue;
+                            border-left: 2px solid $color-gray;
                             font-size: 6px;
                             padding-left: 5px;
                         }
@@ -256,16 +255,14 @@ body {
                         margin-top: 50px;
 
                         .Links__Item {
-                            color: #000000;
+                            color: $color-black;
                             padding: 22px;  
                             font-weight: bold;
                         }   
                     }
                 }
- 
             }
-        }
-          
+        }    
     }
 }
 
@@ -331,7 +328,7 @@ body {
                 margin-right: 30px;
             }
   
-            .Content__Progress--ILLUSTRATOR {
+            .Content__Progress--Illustrator {
                 margin-right: 30px;
             }
         }
@@ -340,7 +337,7 @@ body {
             width: 100%;
             margin-left: 5%;
           
-           .Content__Historybox--paragraph {
+           .Content__Historybox--Paragraph {
                 font-size: 8px;
                 padding-right: 5px;
             }
@@ -374,11 +371,11 @@ body {
             margin-left: 150px;
             flex-wrap: nowrap;
 
-           .Content__Progress--ILLUSTRATOR {
+           .Content__Progress--Illustrator {
                 padding-left: 160px;
             }
 
-            .Content__Progress--HTML {
+            .Content__Progress--Html {
                 padding-left: 150px;
             }
         }
@@ -391,5 +388,4 @@ body {
     .Folio {
         margin-left: 150px;
     }
-  
 }

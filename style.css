@@ -103,38 +103,38 @@ body .Auther__Information .Auther__Content .Content__Progress--Photoshop {
   padding-right: 20px;
 }
 
-body .Auther__Information .Auther__Content .Content__Progress--Photoshop .Photoshop--lable {
+body .Auther__Information .Auther__Content .Content__Progress--Photoshop .Photoshop--Lable {
   margin-left: 20px;
 }
 
-body .Auther__Information .Auther__Content .Content__Progress--Photoshop .Photoshop--percentge {
+body .Auther__Information .Auther__Content .Content__Progress--Photoshop .Photoshop--Percentge {
   margin-left: 30px;
 }
 
-body .Auther__Information .Auther__Content .Content__Progress--ILLUSTRATOR {
+body .Auther__Information .Auther__Content .Content__Progress .Content__Progress--Illustrator {
   font-size: 10px;
   color: #FFFFFF;
   padding-right: 20px;
 }
 
-body .Auther__Information .Auther__Content .Content__Progress--ILLUSTRATOR .ILLUSTRATOR--lable {
+body .Auther__Information .Auther__Content .Content__Progress .Content__Progress--Illustrator .Illustrator--Lable {
   margin-left: 20px;
 }
 
-body .Auther__Information .Auther__Content .Content__Progress--ILLUSTRATOR .ILLUSTRATOR--percentge {
+body .Auther__Information .Auther__Content .Content__Progress .Content__Progress--Illustrator .Illustrator--Percentge {
   margin-left: 30px;
 }
 
-body .Auther__Information .Auther__Content .Content__Progress--HTML {
+body .Auther__Information .Auther__Content .Content__Progress--Html {
   font-size: 10px;
   color: #FFFFFF;
 }
 
-body .Auther__Information .Auther__Content .Content__Progress--HTML .HTML--lable {
+body .Auther__Information .Auther__Content .Content__Progress--Html .Html--Lable {
   margin-left: 20px;
 }
 
-body .Auther__Information .Auther__Content .Content__Progress--HTML .HTML--percentge {
+body .Auther__Information .Auther__Content .Content__Progress--Html .Html--Percentge {
   margin-left: 30px;
 }
 
@@ -144,11 +144,11 @@ body .Auther__Information .Auther__Content .Content__Historybox {
   width: 100%;
 }
 
-body .Auther__Information .Auther__Content .Content__Historybox .Historybox__year {
+body .Auther__Information .Auther__Content .Content__Historybox .Historybox__Year {
   margin-left: 15px;
 }
 
-body .Auther__Information .Auther__Content .Content__Historybox--paragraph {
+body .Auther__Information .Auther__Content .Content__Historybox--Paragraph {
   font-size: 8px;
   padding-right: 10px;
 }
@@ -323,14 +323,14 @@ body .Folio .Folio__Hello .Folio__ContentDscription .ContentDscription--ContactI
   .Auther__Content .Content__Progress .Content__Progress--Photoshop {
     margin-right: 30px;
   }
-  .Auther__Content .Content__Progress .Content__Progress--ILLUSTRATOR {
+  .Auther__Content .Content__Progress .Content__Progress--Illustrator {
     margin-right: 30px;
   }
   .Auther__Content .Content__History {
     width: 100%;
     margin-left: 5%;
   }
-  .Auther__Content .Content__History .Content__Historybox--paragraph {
+  .Auther__Content .Content__History .Content__Historybox--Paragraph {
     font-size: 8px;
     padding-right: 5px;
   }
@@ -358,10 +358,10 @@ body .Folio .Folio__Hello .Folio__ContentDscription .ContentDscription--ContactI
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
   }
-  .Auther__Content .Content__Progress .Content__Progress--ILLUSTRATOR {
+  .Auther__Content .Content__Progress .Content__Progress--Illustrator {
     padding-left: 160px;
   }
-  .Auther__Content .Content__Progress .Content__Progress--HTML {
+  .Auther__Content .Content__Progress .Content__Progress--Html {
     padding-left: 150px;
   }
   .Auther__Content .Content__History {

@@ -202,11 +202,11 @@ body {
   padding-bottom: 20px;
 }
 
-.Photoshop--lable {
+.Photoshop--Lable {
   margin-left: 20px;
 }
 
-.Photoshop--percentge{
+.Photoshop--Percentge{
   margin-left: 30px;
 }
 
@@ -216,29 +216,29 @@ body {
   padding-right: 60px;
 }
 
-.ILLUSTRATOR--lable {
+.Illustrator--Lable {
   margin-left: 20px;
 }
 
-.ILLUSTRATOR--percentge{
+.Illustrator--Percentge{
   margin-left: 30px;
 }
 
-.Content__Progress--ILLUSTRATOR {
+.Content__Progress--Illustrator {
   font-size: 10px;
   color: #FFFFFF;
   padding-right: 60px;
 }
 
-.HTML--lable {
+.Html--Lable {
   margin-left: 20px;
 }
 
-.HTML--percentge{
+.Html--Percentge{
   margin-left: 30px;
 }
 
-.Content__Progress--HTML {
+.Content__Progress--Html {
   font-size: 10px;
   color: #FFFFFF;
 }
@@ -249,7 +249,7 @@ body {
   width: 100%;
 }
 
-.Historybox__year{
+.Historybox__Year{
 margin-left: 15px;
 }
 
@@ -257,7 +257,7 @@ margin-left: 15px;
   display: flex;
 }
 
-.Content__Historybox--paragraph {
+.Content__Historybox--Paragraph {
   font-size: 8px;
   padding-right: 10px;
 }
@@ -322,12 +322,12 @@ margin-left: 15px;
     padding-right: 40px;
   }
 
-  .Content__Progress--ILLUSTRATOR {
+  .Content__Progress--Illustrator {
     padding-right: 40px;
   }
 
 
-  .Content__Historybox--paragraph {
+  .Content__Historybox--Paragraph {
     font-size: 8px;
     padding-right: 5px;
   }
@@ -365,7 +365,7 @@ margin-left: 15px;
     padding-right: 20%;
   }
 
-  .Content__Progress--ILLUSTRATOR {
+  .Content__Progress--Illustrator {
     padding-right: 18%;
   }
 
