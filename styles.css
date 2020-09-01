@@ -1,251 +1,380 @@
-  .Folio {
-     margin-left: 100px;
-   }
-  
-  .FolioImg {
-     float: left;
-     display: block;
-     margin-left: auto;
-     margin-right: auto;
-     margin-top: 30px;
-   }
+/*mobile first approch*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-   .FolioImg__Logo{
-     width:"100";
-     height:"30";
-     margin-bottom: 170px;
-   }
+.Folio {
+  position: absolute;
+  top: 650px;
+}
 
-   .FolioImg__Backgroun{
-     width: 100px;
-     height: "300";
-   }
+.FolioImg {
+  width: 100%;
+}
 
-  .Folio__Hello {
-     clear: both;
-     bottom: 170px;
-     font-size: 110px;
-     font-family: Arial;
-     margin-bottom: 200px;
-   }
+.FolioImg__Logo {
+  width: 10%;
+  position: absolute;
+  top: 60px;
+}
 
-  .Folio__discription {
-     color: gray;
-     font-family: Arial;
-     font-size: 12px;
-     margin-top: 20px;
-   }
+.FolioImg__Background {
+  position: relative;
+  width: 70%;
+  left: 100px;
+}
  
-  .Folio__PowerImg {
-     float: right;
-     margin-right: 700px;
-     margin-left: auto;
-     width: 25px ;
-     height: 20px;
-   }
+.Folio__Hello {
+  font-size: 50px;
+  font-weight: bold;
+}
 
-  .Folio__Content {
-     float: left;
-     padding-top: 100px;
-   }
+.Folio__Discription {
+  color: #808080;
+  font-size: 11px;
+}
 
-  .Content__StickerImg {
-     position: relative;
-     right: 27px;
-     padding-bottom: 20px;
-     width: 40px;
-     height: 30px;
-   }
-  
-  .Content--ContactInfo {
-     background-color: #bdf7ff;
-     opacity: 0.8;
-     padding: 50px;
-     display: block;
-     margin-left: auto;
-     margin-right: auto;
-     width: max-content;
-   }
+.Discription__PowerImg {
+  float: right;
+  margin-right: 25px;
+  width: 25px ;
+  height: 20px;
+}
 
-  .ContactInfo__Load {
-     color: black;
-     font-family: Arial; 
-     font-size: 15px;  
-     text-align: center; 
-     font-weight: bold;
-     display: block;
-     margin-right: auto;
-     margin-left: auto;
-   }
+.Folio__ContentDscription {
+  float: left;
+}
 
-  .ContactInfo__ContactImg {
-     display: block;
-     margin-right: auto;
-     margin-left: auto;
-     margin-bottom: 15px;
-     margin-top: 10px;
-     width: 20px;
-     height: 150px;
-   }
+.ContentDscription--Imgs {
+  width: 45%;
+  height: 45%;
+}
 
-  .ContactInfo__Mobile {
-     text-align: center;
-     font-size: 20px; 
-     color: black;
-     font-weight: bold;
-   }
+.ContentDscription__StickerImg {
+  position: relative;
+  right: 27px;
+  padding-bottom: 20px;
+  width: 40px;
+  height: 30px;
+}
 
-  .ContactInfo__EmailParagraph {
-     text-align: center; 
-     color: #666; 
-     font-size: 10px;
-   }
+.ContentDscription--ContactInfo {
+  background-color: #7FFFD4;
+  padding: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: max-content;
+}
 
-  .ContactInfo__Email {
-     color: blue;
-     border-left: 2px solid grey;
-     font-size: small;
-   }
+.ContactInfo__Load {
+  color: #000000;
+  font-size: 15px;  
+  text-align: center; 
+  font-weight: bold;
+}
 
-  .ContactInfo__Links {
-     text-align: center; 
-     font-family: Arial; 
-     font-size: 15px; 
-     margin-top: 50px;
-   }
+.ContactInfo__ContactImg {
+  margin: 0 50%;
+  width: 20px;
+  height: 150px;
+}
+ 
+.ContactInfo__Mobile {
+  text-align: center;
+  font-size: 20px; 
+  color: #000000;
+  font-weight: bold;
+}
+     
+.ContactInfo__EmailParagraph {
+  text-align: center; 
+  color: #696969; 
+  font-size: 10px;
+}
+   
+.ContactInfo__Email {
+  color: #4682B4;
+  border-left: 2px solid #808080;
+  font-size: 6px;
+  padding-left: 5px;
+}
+ 
+.ContactInfo__Links {
+  text-align: center; 
+  font-size: 15px; 
+  margin-top: 50px;
+}
 
-  .Links__Item {
-     color: black;
-     padding: 22px;  
-     font-weight: bold;
-   }
+.Links__Item {
+  color: #000000;
+  padding: 22px;  
+  font-weight: bold;
+}
 
-   .black__interface {
-       position: fixed;
-       bottom: 0;
-       right: 0;
-       left: 0;
-       top: 0;
-   }
+.Auther__Information {
+  background-color: black;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  z-index: 9;
+}
 
-  .Autherr__Background {
-      background-color: black;
-   }
 
+.Auther__Content {
+  width: 75%;
+  margin: 0 auto; 
+}
+
+.Content__BackgroundImg {
+  width: 100%;
+  position: relative;    
+}
+
+.Content__Sticker1 {
+  position: absolute;
+  right: 70px;
+  top: 150px;
+}
+
+.Content__StickerPower {
+  position: absolute;
+  left: 150px;
+  top: 50px;
+}
+
+.Auther__Img {
+  position: absolute;
+  left: 250px;
+  top: 180px;
+  height: 20%;
+  width: 20%;
+  overflow: hidden;
+  border-radius: 50%; 
+}
+
+.Content__StickerWaves {
+  position: absolute;
+  top: 200px;
+  left: 230px;
+}
+
+.Auther__Idntity {
+  text-align: center;
+  margin-top: 40px;
+  color: #808080; 
+  font-size: 25px;
+}
+
+.Auther__Idntity--Name {
+  color: #FFFFFF;
+  font-size: 25px;
+}
+
+.Auther__Idntity--Family {
+  color: #FFFFFF;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.Content__Discribtion {
+  color: #FFFFFF;
+  font-size: 10px;
+  margin-left: 30px;
+}
+
+.Content__Discribtion--Lastline {
+  color: #FFFFFF;
+  font-size: 10px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.Auther__Contact {
+  font-size: 10px;
+  color:#808080; 
+  margin-left: 30px;
+  padding:  30px;
+}
+
+.Content__Progress {
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.Photoshop--Lable {
+  margin-left: 20px;
+}
+
+.Photoshop--Percentge{
+  margin-left: 30px;
+}
+
+.Content__Progress--Photoshop {
+  font-size: 10px;
+  color: #FFFFFF;
+  padding-right: 60px;
+}
+
+.Illustrator--Lable {
+  margin-left: 20px;
+}
+
+.Illustrator--Percentge{
+  margin-left: 30px;
+}
+
+.Content__Progress--Illustrator {
+  font-size: 10px;
+  color: #FFFFFF;
+  padding-right: 60px;
+}
+
+.Html--Lable {
+  margin-left: 20px;
+}
+
+.Html--Percentge{
+  margin-left: 30px;
+}
+
+.Content__Progress--Html {
+  font-size: 10px;
+  color: #FFFFFF;
+}
+
+.Content__Historybox {
+  font-size: 15px;
+  color: #FFFFFF;
+  width: 100%;
+}
+
+.Historybox__Year{
+margin-left: 15px;
+}
+
+.Content__History{
+  display: flex;
+}
+
+.Content__Historybox--Paragraph {
+  font-size: 8px;
+  padding-right: 10px;
+}
+
+@media only screen and (min-width: 400px) {
+ 
   .Auther__Content {
-     margin-left: 180px;
-   }
+    width: 60%;
+  }
 
-  .Auther__BackgroundImg {
-     position: relative;
-     display: block;
-     margin-left: auto;
-     margin-right: auto; 
-    
-   }
+  .Content__BackgroundImg {
+    width: 100%;   
+    height: 150px; 
+  }
 
-   .Auther__BackgroundImg--Sticker1 {
-     position: absolute;
-     margin-left: -20px;
-     margin-top: 150px;
-   }
-   .Auther__BackgroundImg--Stickerpower {
-     position: absolute;
-     margin-left: -500px;
-     margin-top: 50px;
-   }
+  .Content__Sticker1 {
+    right: 19%;
+    top: 100px;
+    width: 30px;
+    height: 20px;
+  }
+
+  .Content__StickerPower {
+    top: 20px;
+    left: 25%;
+    transform: translate(-30%,0);
+    width: 30px;
+    height: 20px;
+  }
+
   .Auther__Img {
-     position: absolute;
-     margin-left: 200px;
-     margin-top: -150px;
-     overflow: hidden;
-     border-radius: 50%; 
-   }
+    position: absolute;
+    top: 90px;
+    left: 50%;
+    transform: translate(-50%,0);
+    width: 85px;
+    height: 85px;
+  }
+
+  .Content__StickerWaves {
+    position: absolute;
+    top: 110px;
+    position: absolute;
+    left: 46%;
+    transform: translate(-45%,0);
+  }
 
   .Auther__Idntity {
-     display:block;
-     margin-left: 140px;
-     margin-top: 50px;
-     color:gray; 
-     font-family: Arial;
-     font-size: xx-large;
-   }
+    text-align: center;
+    margin-top: 20px;
+  }
 
-  .Auther__Idntity--Name {
-      color: white;
-      font-family: Arial;
-      font-size: xx-large;
-   }
-
-  .Auther__Idntity--Family {
-     color: white;
-     font-family: Arial;
-     font-size: xx-large;
-     font-weight: bold;
-   }
-
-  .Auther__Discribtion {
-     color: white; 
-     font-family: Arial;
-     font-size: medium;
-     display: block;
-   }
-
-  .Auther__Discribtion--Lastline {
-     margin-left: 180px; 
-   }
+  .Content__Discribtion {
+    text-align: center;
+  }
 
   .Auther__Contact {
-      font-size: small;
-      font-family: Arial;
-      color: gray;
-       padding:  50px;
-   }
+    text-align: center;
+  }
 
-  .Auther__Progress {
-     padding-right: 20px;
-   }
+  .Content__Progress--Photoshop {
+    padding-right: 40px;
+  }
 
-  .Auther__Progress--photoshop {
-     font-family: Arial, Helvetica, sans-serif;
-     font-size: small;
-     color: white;
-     float: left;
-     padding: 30px;
-   }
+  .Content__Progress--Illustrator {
+    padding-right: 40px;
+  }
 
-  .Auther__Progress--ILLUSTRATOR {
-     display: block;
-     font-family: Arial, Helvetica, sans-serif;
-     font-size: small;
-     color: white;
-     float: left;
-     padding: 30px; 
-   }
 
-  .Auther__Progress--HTML {
-     display: block;
-     font-family: Arial, Helvetica, sans-serif;
-     font-size: small;
-     color: white; 
-     padding: 30px;
-   }
+  .Content__Historybox--Paragraph {
+    font-size: 8px;
+    padding-right: 5px;
+  }
 
-  .Auther__Historybox {
-     font-family: Arial, Helvetica, sans-serif;
-     font-size: large;
-     color: white;
-     float: left;
-     width:max-content;
-     padding: 16px;
-   }
+  .Folio {
+    top: 450px;
+    margin-left: 5%;
+  }
+  .Content__Progress {
+    margin-left: 5%;
+  }
 
-  .Auther__History::after {
-     display: block;
-     content: "";
-     clear: both;
-   }
+  .Content__History{
+    width: 100%;
+    margin-left: 5%;
+  }
 
-  p.Auther__Historybox--paragraph {
-     font-size: small;
-   }
+}
+
+@media only screen and (min-width: 800px) {
+
+  .Auther__Content {
+    width: 40%;
+  }
+
+  .Content__Sticker1 {
+    right: 29%;
+  }
+
+  .Content__StickerPower {
+    left: 35%;
+  }
+
+  .Content__Progress--Photoshop {
+    padding-right: 20%;
+  }
+
+  .Content__Progress--Illustrator {
+    padding-right: 18%;
+  }
+
+  .Content__History{
+    width: 100%;
+  }
+
+  .Folio {
+    margin-left: 20%;
+  }
+
+}
